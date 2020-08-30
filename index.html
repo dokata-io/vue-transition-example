@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <transition name="slide-fade">
+            <p v-if="isShow">{{dat[idx].name}}</p>
+        </transition>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
